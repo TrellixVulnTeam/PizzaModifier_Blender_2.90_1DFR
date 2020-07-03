@@ -2174,8 +2174,8 @@ TreeElementIcon tree_element_get_icon(TreeStoreElem *tselem, TreeElement *te)
             case eModifierType_Simulation:
               data.icon = ICON_PHYSICS; /* TODO: Use correct icon. */
               break;
-              /* Default */
             case eModifierType_Pizza:
+              /* Default */
             case eModifierType_None:
             case eModifierType_ShapeKey:
 

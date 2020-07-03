@@ -134,6 +134,10 @@ The drag and drop support in the modifier tab no longer use python for displayin
 	
 	/** ModifierTypeInfo **/
 
+You also need to add this line before  "/* Default */" in "tree_element_get_icon" (file: \blender\source\blender\editors\space_outliner\outliner_draw.c )
+    
+    case eModifierType_Pizza:
+
 ## Appendix: Example of modifyMesh
 
 	#include  "DNA_mesh_types.h"
